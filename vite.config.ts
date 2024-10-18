@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: '/card-table/',
+  base: '/start-rl/',
   publicDir: 'public',
   resolve: {
     alias: {

@@ -25,9 +25,10 @@ interface Card {
   key: string;
   title: string;
   tags: string[];
-  arxiv: string;
+  paper: string;
   website: string;
-  github: string;
+  repo: string;
+  video: string;
   notes: string;
   x: number;
   y: number;
@@ -106,7 +107,7 @@ const TextControlPanel: React.FC<{
         backgroundColor: 'white', 
         border: '1px solid #ccc', 
         padding: '5px',
-        width: '150px',
+        width: '220px',
         zIndex: ALWAYS_ON_TOP_Z_INDEX,
     }}>
       <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
@@ -203,9 +204,10 @@ const CardTable: React.FC = () => {
       key: key,
       title: value.title,
       tags: value.tags,
-      arxiv: value.arxiv,
+      paper: value.paper,
       website: value.website,
-      github: value.github,
+      repo: value.repo,
+      video: value.video,
       notes: value.notes,
       x: Math.floor(Math.random() * 300) + 10,
       y: Math.floor(Math.random() * 300) + 10,
@@ -317,9 +319,10 @@ const CardTable: React.FC = () => {
               ...existingCard,
               title: value.title,
               tags: value.tags,
-              arxiv: value.arxiv,
+              paper: value.paper,
               website: value.website,
-              github: value.github,
+              repo: value.repo,
+              video: value.video,
               notes: value.notes,
             };
           } else {
@@ -328,9 +331,10 @@ const CardTable: React.FC = () => {
               key: key,
               title: value.title,
               tags: value.tags,
-              arxiv: value.arxiv,
+              paper: value.paper,
               website: value.website,
-              github: value.github,
+              repo: value.repo,
+              video: value.video,
               notes: value.notes,
               x: (index % 5) * 120 + 10,
               y: Math.floor(index / 5) * 120 + 10,
@@ -572,14 +576,19 @@ const CardTable: React.FC = () => {
           {card.website && card.website.startsWith('http') && (
             <a href={card.website} target="_blank" rel="noreferrer">[Website] </a>
           )}
-          {card.arxiv && card.arxiv.startsWith('http') && (
-            <a href={card.arxiv} target="_blank" rel="noreferrer">[ArXiv] </a>
+          {card.video && card.video.startsWith('http') && (
+            <a href={card.video} target="_blank" rel="noreferrer">[Video] </a>
           )}
-          {card.github && card.github.startsWith('http') && (
-            <a href={card.github} target="_blank" rel="noreferrer">[GitHub]</a>
+          {card.paper && card.paper.startsWith('http') && (
+            <a href={card.paper} target="_blank" rel="noreferrer">[Paper] </a>
+          )}
+          {card.repo && card.repo.startsWith('http') && (
+            <a href={card.repo} target="_blank" rel="noreferrer">[Code]</a>
           )}
         </p>
-        <p>&#x1F3F7;&#xFE0F; {card.tags.join(', ')}</p>
+        {card.tags && card.tags.length > 0 && (
+          <p>&#x1F3F7;&#xFE0F; {card.tags.join(', ')}</p>
+        )}
         <p>&#128073; {card.notes}</p>
       </>
     );
@@ -640,6 +649,9 @@ const CardTable: React.FC = () => {
             marginBottom: '10px', 
             marginLeft: '10px',
             cursor: 'pointer',
+            whiteSpace: 'nowrap',
+            maxWidth: 'none',
+            width: 'auto',
           }}
         >
           {title}
@@ -718,6 +730,9 @@ const CardTable: React.FC = () => {
               cursor: text.isSelected ? 'move' : 'pointer',
               userSelect: 'none',
               zIndex: text.zIndex,
+              whiteSpace: 'nowrap',
+              maxWidth: 'none',
+              width: 'auto',
             }}
           >
             {text.isEditing ? (
@@ -755,7 +770,7 @@ const CardTable: React.FC = () => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'fixed', top: 70, right: 10, width: 300, backgroundColor: 'white', padding: 10, border: '1px solid #ccc' }}>
+      <div style={{ position: 'fixed', bottom: 50, right: 10, width: 300, backgroundColor: 'white', padding: 10, border: '1px solid #ccc' }}>
         {selectedCard ? (
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
@@ -784,8 +799,7 @@ const CardTable: React.FC = () => {
       <div style={{
         position: 'fixed',
         bottom: '10px',
-        left: '50%',
-        transform: 'translateX(-50%)',
+        right: '10px',
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         padding: '5px 10px',
         borderRadius: '5px',
