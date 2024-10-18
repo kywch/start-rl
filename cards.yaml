@@ -56,3 +56,40 @@ PPO:
   title: Proximal Policy Optimization Algorithms
   paper: https://arxiv.org/abs/1707.06347
   notes: PPO is a popular, simple, and fast RL algorithm that improves policy optimization by making small, controlled updates, balancing exploration and exploitation.
+
+OpenAI-Five:
+  title: Dota 2 with Large Scale Deep Reinforcement Learning
+  website: https://openai.com/index/openai-five/
+  paper: https://arxiv.org/abs/1912.06680
+  notes: On April 13th, 2019, OpenAI Five became the first AI system to defeat the world champions at an esports game. OpenAI Five demonstrates that self-play reinforcement learning can achieve superhuman performance on a difficult task.
+
+AlphaStar:
+  title: Grandmaster level in StarCraft II using multi-agent reinforcement learning
+  website: https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/
+  paper: https://www.nature.com/articles/s41586-019-1724-z
+  notes: AlphaStar is the first AI to reach the top league of a widely popular esport without any game restrictions.
+
+EmergentToolUse:
+  title: Emergent Tool Use From Multi-Agent Autocurricula
+  website: https://openai.com/index/emergent-tool-use/
+  paper: https://arxiv.org/abs/1909.07528
+  notes: Through multi-agent competition, the simple objective of hide-and-seek, and standard reinforcement learning algorithms at scale, we find that agents create a self-supervised autocurriculum inducing multiple distinct rounds of emergent strategy, many of which require sophisticated tool use and coordination.
+
+CaptureTheFlag:
+  title: Human-level performance in 3D multiplayer games with population-based reinforcement learning
+  website: https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/
+  paper: https://www.science.org/doi/10.1126/science.aau6249
+  notes: In Quake III Arena Capture the Flag, the trained agents successfully cooperate with both artificial and human teammates, and demonstrate high performance even when trained with reaction times comparable to human players.
+
+XLand:
+  title: Generally capable agents emerge from open-ended play
+  website: https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/
+  paper: https://arxiv.org/abs/2107.12808
+  notes: We created a vast game environment we call XLand, which includes many multiplayer games within consistent, human-relatable 3D worlds. We find the agent exhibits general, heuristic behaviours such as experimentation, behaviours that are widely applicable to many tasks rather than specialised to an individual task.
+
+NetHack:
+  title: The NetHack Learning Environment
+  website: https://ai.meta.com/blog/nethack-learning-environment-to-advance-deep-reinforcement-learning/
+  paper: https://arxiv.org/abs/2006.13760
+  repo: https://github.com/heiner/nle
+  notes: The NetHack Learning Environment combines lightning-fast simulation with very complex game dynamics that are difficult even for humans to master. This allows our agents to experience billions of steps in the environment in a reasonable time frame while still challenging the limits of what current methods can achieve.

@@ -44,6 +44,17 @@
       "color": "#000000",
       "fontSize": 24,
       "zIndex": 42
+    },
+    {
+      "id": 1729286993763,
+      "content": "Awesome projects:",
+      "x": 29,
+      "y": 411,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#000000",
+      "fontSize": 24,
+      "zIndex": 59
     }
   ],
   "cards": [
@@ -131,6 +142,67 @@
       "x": 370,
       "y": 353,
       "zIndex": 55
+    },
+    {
+      "key": "OpenAI-Five",
+      "title": "Dota 2 with Large Scale Deep Reinforcement Learning",
+      "paper": "https://arxiv.org/abs/1912.06680",
+      "website": "https://openai.com/index/openai-five/",
+      "notes": "On April 13th, 2019, OpenAI Five became the first AI system to defeat the world champions at an esports game. OpenAI Five demonstrates that self-play reinforcement learning can achieve superhuman performance on a difficult task.",
+      "x": 56,
+      "y": 457,
+      "zIndex": 69
+    },
+    {
+      "key": "AlphaStar",
+      "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+      "paper": "https://www.nature.com/articles/s41586-019-1724-z",
+      "website": "https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/",
+      "notes": "AlphaStar is the first AI to reach the top league of a widely popular esport without any game restrictions.",
+      "x": 219,
+      "y": 459,
+      "zIndex": 80
+    },
+    {
+      "key": "EmergentToolUse",
+      "title": "Emergent Tool Use From Multi-Agent Autocurricula",
+      "paper": "https://arxiv.org/abs/1909.07528",
+      "website": "https://openai.com/index/emergent-tool-use/",
+      "notes": "Through multi-agent competition, the simple objective of hide-and-seek, and standard reinforcement learning algorithms at scale, we find that agents create a self-supervised autocurriculum inducing multiple distinct rounds of emergent strategy, many of which require sophisticated tool use and coordination.",
+      "x": 379,
+      "y": 460,
+      "zIndex": 92
+    },
+    {
+      "key": "CaptureTheFlag",
+      "title": "Human-level performance in 3D multiplayer games with population-based reinforcement learning",
+      "paper": "https://www.science.org/doi/10.1126/science.aau6249",
+      "website": "https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/",
+      "notes": "In Quake III Arena Capture the Flag, the trained agents successfully cooperate with both artificial and human teammates, and demonstrate high performance even when trained with reaction times comparable to human players.",
+      "x": 57,
+      "y": 524,
+      "zIndex": 108
+    },
+    {
+      "key": "XLand",
+      "title": "Generally capable agents emerge from open-ended play",
+      "paper": "https://arxiv.org/abs/2107.12808",
+      "website": "https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/",
+      "notes": "We created a vast game environment we call XLand, which includes many multiplayer games within consistent, human-relatable 3D worlds. We find the agent exhibits general, heuristic behaviours such as experimentation, behaviours that are widely applicable to many tasks rather than specialised to an individual task.",
+      "x": 220,
+      "y": 523,
+      "zIndex": 109
+    },
+    {
+      "key": "NetHack",
+      "title": "The NetHack Learning Environment",
+      "paper": "https://arxiv.org/abs/2006.13760",
+      "website": "https://ai.meta.com/blog/nethack-learning-environment-to-advance-deep-reinforcement-learning/",
+      "repo": "https://github.com/heiner/nle",
+      "notes": "The NetHack Learning Environment combines lightning-fast simulation with very complex game dynamics that are difficult even for humans to master. This allows our agents to experience billions of steps in the environment in a reasonable time frame while still challenging the limits of what current methods can achieve.",
+      "x": 381,
+      "y": 524,
+      "zIndex": 110
     }
   ],
   "zoom": 1
