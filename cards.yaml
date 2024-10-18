@@ -1,0 +1,58 @@
+# Each card is identified by a unique keyword, followed by these fields:
+#   title: The title of the card
+#   tags: An array of tags to categorize the card
+#   website: The website url
+#   video: The youtube video url
+#   paper: The paper/arXiv url
+#   repo: The github repository url
+#   notes: One-liner comment about the paper
+
+
+GoogleColab:
+  title: Google Colab Notebooks
+  website: https://colab.research.google.com/
+  notes: To use GPU, search how to use gpu in google colab.
+
+RL-Iceberg:
+  title: The Full Reinforcement Learning Iceberg
+  video: https://www.youtube.com/watch?v=RIkse0tJ0hE
+  notes: Dive into 10 levels of the RL stack with Joseph Suarez, a newly minted MIT PhD and the creator of Neural MMO + PufferLib. There's something here for beginners and world-class experts alike.
+
+CleanRL:
+  title: High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms
+  website: https://docs.cleanrl.dev/
+  paper: https://arxiv.org/abs/2111.08819
+  repo: https://github.com/vwxyzjn/cleanrl
+  notes: Deep Reinforcement Learning library that provides high-quality single-file implementation with research-friendly features. The implementation is clean and simple, yet we can scale it to run thousands of experiments using AWS Batch.
+
+CleanRL-PPO:
+  title: CleanRL Proximal Policy Optimization (PPO) single file implementation
+  website: https://docs.cleanrl.dev/algorithms/ppo
+  repo: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_atari.py
+
+CleanRL-DQN:
+  title: CleanRL Deep Q-Learning (DQN) single file implementation
+  website: https://docs.cleanrl.dev/algorithms/dqn
+  repo: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/dqn_atari.py
+
+PufferLib:
+  title: Making Reinforcement Learning Libraries and Environments Play Nice
+  website: https://pufferai.github.io/
+  paper: https://arxiv.org/abs/2406.12905
+  repo: https://github.com/pufferai/pufferlib
+  notes: Simplifying reinforcement learning for complex game environments. Ships with fast research-grade envs that runs 1M+ step/second on a gaming PC.
+
+DQN:
+  title: Human-level control through deep reinforcement learning
+  paper: https://daiwk.github.io/assets/dqn.pdf
+  notes: This paper started the deep learning revolution in reinforcement learning.
+
+GAE:
+  title: High-Dimensional Continuous Control Using Generalized Advantage Estimation
+  paper: https://arxiv.org/abs/1506.02438
+  notes: GAE improves policy gradient methods by optimizing advantage estimation, balancing bias and variance.
+
+PPO:
+  title: Proximal Policy Optimization Algorithms
+  paper: https://arxiv.org/abs/1707.06347
+  notes: PPO is a popular, simple, and fast RL algorithm that improves policy optimization by making small, controlled updates, balancing exploration and exploitation.

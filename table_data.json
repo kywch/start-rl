@@ -1,0 +1,137 @@
+{
+  "title": "New to RL? You can start now.",
+  "texts": [
+    {
+      "id": 1729282475828,
+      "content": "Start by watching",
+      "x": 35,
+      "y": 64,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#000000",
+      "fontSize": 24,
+      "zIndex": 35
+    },
+    {
+      "id": 1729282643261,
+      "content": "A gaming pc with gpu would be nice, but if not use:",
+      "x": 21,
+      "y": 16,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#000000",
+      "fontSize": 16,
+      "zIndex": 26
+    },
+    {
+      "id": 1729282994056,
+      "content": "Like to see the working code?",
+      "x": 36,
+      "y": 118,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#000000",
+      "fontSize": 24,
+      "zIndex": 37
+    },
+    {
+      "id": 1729283067553,
+      "content": "The modern classics:",
+      "x": 31,
+      "y": 305,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#000000",
+      "fontSize": 24,
+      "zIndex": 42
+    }
+  ],
+  "cards": [
+    {
+      "key": "GoogleColab",
+      "title": "Google Colab Notebooks",
+      "website": "https://colab.research.google.com/",
+      "notes": "To use GPU, search how to use gpu in google colab.",
+      "x": 405,
+      "y": 13,
+      "zIndex": 27
+    },
+    {
+      "key": "RL-Iceberg",
+      "title": "The Full Reinforcement Learning Iceberg",
+      "video": "https://www.youtube.com/watch?v=RIkse0tJ0hE",
+      "notes": "Dive into 10 levels of the RL stack with Joseph Suarez, a newly minted MIT PhD and the creator of Neural MMO + PufferLib. There's something here for beginners and world-class experts alike.",
+      "x": 247,
+      "y": 63,
+      "zIndex": 36
+    },
+    {
+      "key": "CleanRL",
+      "title": "High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms",
+      "paper": "https://arxiv.org/abs/2111.08819",
+      "website": "https://docs.cleanrl.dev/",
+      "repo": "https://github.com/vwxyzjn/cleanrl",
+      "notes": "Deep Reinforcement Learning library that provides high-quality single-file implementation with research-friendly features. The implementation is clean and simple, yet we can scale it to run thousands of experiments using AWS Batch.",
+      "x": 52,
+      "y": 175,
+      "zIndex": 38
+    },
+    {
+      "key": "CleanRL-PPO",
+      "title": "CleanRL Proximal Policy Optimization (PPO) single file implementation",
+      "website": "https://docs.cleanrl.dev/algorithms/ppo",
+      "repo": "https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_atari.py",
+      "x": 205,
+      "y": 174,
+      "zIndex": 39
+    },
+    {
+      "key": "CleanRL-DQN",
+      "title": "CleanRL Deep Q-Learning (DQN) single file implementation",
+      "website": "https://docs.cleanrl.dev/algorithms/dqn",
+      "repo": "https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/dqn_atari.py",
+      "x": 362,
+      "y": 174,
+      "zIndex": 40
+    },
+    {
+      "key": "PufferLib",
+      "title": "Making Reinforcement Learning Libraries and Environments Play Nice",
+      "paper": "https://arxiv.org/abs/2406.12905",
+      "website": "https://pufferai.github.io/",
+      "repo": "https://github.com/pufferai/pufferlib",
+      "notes": "Simplifying reinforcement learning for complex game environments. Ships with fast research-grade envs that runs 1M+ step/second on a gaming PC.",
+      "x": 52,
+      "y": 240,
+      "zIndex": 41
+    },
+    {
+      "key": "DQN",
+      "title": "Human-level control through deep reinforcement learning",
+      "paper": "https://daiwk.github.io/assets/dqn.pdf",
+      "notes": "This paper started the deep learning revolution in reinforcement learning.",
+      "x": 58,
+      "y": 352,
+      "zIndex": 53
+    },
+    {
+      "key": "GAE",
+      "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+      "paper": "https://arxiv.org/abs/1506.02438",
+      "notes": "GAE improves policy gradient methods by optimizing advantage estimation, balancing bias and variance.",
+      "x": 217,
+      "y": 352,
+      "zIndex": 56
+    },
+    {
+      "key": "PPO",
+      "title": "Proximal Policy Optimization Algorithms",
+      "paper": "https://arxiv.org/abs/1707.06347",
+      "notes": "PPO is a popular, simple, and fast RL algorithm that improves policy optimization by making small, controlled updates, balancing exploration and exploitation.",
+      "x": 370,
+      "y": 353,
+      "zIndex": 55
+    }
+  ],
+  "zoom": 1
+}
