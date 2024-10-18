@@ -1,0 +1,180 @@
+# Each card is identified by a unique keyword, followed by these fields:
+#   title: The title of the card
+#   tags: An array of tags to categorize the card
+#   arxiv: The arXiv url of the paper
+#   website: The website url
+#   github: The github repository url
+#   notes: One-liner comment about the paper
+
+ReKep:
+  title: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+  tags: [FeiFei, policy, hierarchical, OmniGibson]
+  arxiv: https://arxiv.org/abs/2409.01652
+  website: https://rekep-robot.github.io/
+  github: https://github.com/huangwl18/ReKep
+  notes: Large vision models and vision-language models can generate keypoint-based constraints, which can be optimized to achieve multi-stage, in-the-wild, bimanual, and reactive behaviors, without task-specific training or environment models.
+
+RoboCasa:
+  title: Large-Scale Simulation of Everyday Tasks for Generalist Robots
+  tags: [NVIDIA, YukeZhu, benchmark, dataset, RoboSuite]
+  arxiv: https://arxiv.org/abs/2406.02523
+  website: https://robocasa.ai/
+  github: https://github.com/robocasa/robocasa
+  notes: 2,500 3D assets across 150+ object categories and dozens of interactable furniture and appliances. A suite of 100 everyday activities with 100k demonstrations. 
+
+MimicGen:
+  title: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+  tags: [NVIDIA, DieterFox, YukeZhu, dataset, RoboSuite]
+  arxiv: https://arxiv.org/abs/2310.17596
+  website: https://mimicgen.github.io/
+  github: https://github.com/NVlabs/mimicgen
+  notes: We used MimicGen to autonomously generate over 50,000 demonstrations from less than 200 human demonstrations across 18 tasks
+
+RoboMimic:
+  title: What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
+  tags: [YukuZhu, FeiFei, policy, RoboSuite]
+  arxiv: https://arxiv.org/pdf/2108.03298
+  website: https://robomimic.github.io/
+  github: https://github.com/ARISE-Initiative/robomimic
+  notes: A Framework for Robot Learning from Demonstration
+
+Behavior-1k:
+  title: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation
+  tags: [FeiFei, benchmark, OmniGibson]
+  arxiv: https://arxiv.org/abs/2403.09227
+  website: https://behavior.stanford.edu/behavior-1k
+  github: https://github.com/StanfordVL/OmniGibson
+  notes: the 1,000 activities come from the results of an extensive survey on what do you want robots to do for you?
+
+ARCap:
+  title: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback
+  tags: [FeiFei, data collection]
+  arxiv: https://arxiv.org/abs/2410.08464
+  website: https://stanford-tml.github.io/ARCap/
+  github: https://github.com/Ericcsr/ARCap
+  notes: a portable data collection system that provides visual feedback through augmented reality (AR) and haptic warnings to guide users in collecting high-quality demonstrations.
+
+DigitalCousin:
+  title: Automated Creation of Digital Cousins (ACDC) for Robust Policy Learning
+  tags: [FeiFei, data synthesis]
+  arxiv: https://arxiv.org/abs/2410.07408
+  website: https://digital-cousins.github.io/
+  github: https://github.com/cremebrule/digital-cousins
+  notes: ACDC can produce digital cousin scenes that preserve geometric and semantic affordances, and can be used to train policies that outperform policies trained on digital twins, achieving 90% vs. 25% under zero-shot sim-to-real transfer.
+
+LeRobot:
+  title: Making AI for Robotics more accessible with end-to-end learning
+  tags: [HuggingFace, policy, dataset]
+  github: https://github.com/huggingface/lerobot
+  notes: contains state-of-the-art approaches that have been shown to transfer to the real-world with a focus on imitation learning and reinforcement learning.
+
+Diffusion:
+  title: Visuomotor Policy Learning via Action Diffusion
+  tags: [ShuranSong, policy]
+  arxiv: https://arxiv.org/abs/2303.04137
+  website: https://diffusion-policy.cs.columbia.edu/
+  github: https://github.com/real-stanford/diffusion_policy
+  notes: the diffusion formulation yields powerful advantages when used for robot policies, including gracefully handling multimodal action distributions, being suitable for high-dimensional action spaces, and exhibiting impressive training stability.
+
+OpenXEmbodiment:
+  title: Robotic Learning Datasets and RT-X Models
+  tags: [DeepMind, dataset, collaboration]
+  arxiv: https://arxiv.org/abs/2310.08864
+  website: https://robotics-transformer-x.github.io/
+  github: https://github.com/google-deepmind/open_x_embodiment
+  notes: It contains 1M+ real robot trajectories spanning 22 robot embodiments, from single robot arms to bi-manual robots and quadrupeds.
+
+DROID:
+  title: A Large-Scale In-the-Wild Robot Manipulation Dataset
+  tags: [DeepMind, dataset, collaboration, robomimic]
+  arxiv: https://arxiv.org/abs/2403.12945
+  website: https://droid-dataset.github.io/
+  github: https://droid-dataset.github.io/droid/
+  notes: DROID uses the same hardware setup across all 13 institutions. 76k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks
+
+UMI:
+  title: Universal Manipulation Interface. In-The-Wild Robot Teaching Without In-The-Wild Robots
+  tags: [ShuranSong, data collection]
+  arxiv: https://arxiv.org/abs/2402.10329
+  website: https://umi-gripper.github.io/
+  github: https://github.com/real-stanford/universal_manipulation_interface
+  notes: UMI employs hand-held grippers enable portable, low-cost, and information-rich data collection for challenging bimanual and dynamic manipulation demonstrations. learned policies are hardware-agnostic and deployable across multiple robot platforms.
+
+ManiWAV:
+  title: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
+  tags: [ShuranSong, policy, audio-visual]
+  arxiv: https://arxiv.org/abs/2406.19464
+  website: https://mani-wav.github.io/
+  github: https://github.com/real-stanford/maniwav
+  notes: Incorporating contact audio as additional source of information improves robustness and generalizability of the policy.
+
+AlohaACT:
+  title: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+  tags: [ChelseaFinn, data collection, policy]
+  arxiv: https://arxiv.org/abs/2304.13705
+  website: https://tonyzhaozh.github.io/aloha/
+  github: https://github.com/tonyzhaozh/aloha
+  notes: a low-cost system that performs end-to-end imitation learning directly from real demonstrations, collected with a custom teleoperation interface. Action Chunking with Transformers (ACT)
+
+MobileAloha:
+  title: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation
+  tags: [ChelseaFinn, data collection, dataset]
+  arxiv: https://arxiv.org/abs/2401.02117
+  website: https://mobile-aloha.github.io/
+  github: https://github.com/MarkFzp/mobile-aloha
+  notes: It augments the ALOHA system with a mobile base, and a whole-body teleoperation interface.
+
+# AlohaUnleashed:
+#   title: A Simple Recipe for Robot Dexterity
+#   tags: [DeepMind, ChelseaFinn, data collection, policy]
+#   arxiv: https://aloha-unleashed.github.io/assets/aloha_unleashed.pdf
+#   website: https://aloha-unleashed.github.io/
+#   notes: a simple recipe of large scale data collection, combined with expressive models such as Diffusion Policies, can be effective in learning challenging bimanual manipulation tasks involving deformable objects and complex contact rich dynamics.
+
+ManiSkill:
+  title: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI
+  tags: [HaoSu, benchmark, simulation]
+  arxiv: https://arxiv.org/abs/2410.00425
+  website: https://www.maniskill.ai/
+  github: https://github.com/haosulab/ManiSkill
+  notes: 40+ skills/tasks with 2,000+ objects ready-to-use, millions of frames of demonstrations available, and dense reward functions.
+
+TDMPC2:
+  title: Scalable, Robust World Models for Continuous Control
+  tags: [HaoSu, policy]
+  arxiv: https://arxiv.org/abs/2310.16828
+  website: https://www.tdmpc2.com/
+  github: https://github.com/nicklashansen/tdmpc2
+  notes: agent capabilities increase with model and data size, and successfully train a single agent to perform 80 tasks across multiple task domains, embodiments, and action spaces
+
+RFCL:
+  title: Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in RL
+  tags: [HaoSu, policy]
+  arxiv: https://arxiv.org/abs/2405.03379
+  website: https://reverseforward-cl.github.io/
+  github: https://github.com/stonet2000/rfcl
+  notes: RFCL is capable of solving a wide range of complex tasks from just 1-10 demonstrations, far more demonstration efficient than prior model-free baselines.
+
+SIMPLER:
+  title: Evaluating Real-World Robot Manipulation Policies in Simulation
+  tags: [DeepMind, HaoSu, ChelseaFinn, benchmark]
+  arxiv: https://arxiv.org/pdf/2405.05941
+  website: https://simpler-env.github.io/
+  github: https://github.com/simpler-env/SimplerEnv
+  notes: demonstrate strong correlation between policy performance in SIMPLER environments and in the real world
+
+OpenVLA:
+  title: An Open-Source Vision-Language-Action Model
+  tags: [DeepMind, ChelseaFinn, policy]
+  arxiv: https://arxiv.org/abs/2406.09246
+  website: https://openvla.github.io/
+  github: https://github.com/openvla/openvla
+  notes: a 7B parameter open-source vision-language-action model (VLA), pretrained on 970k robot episodes from the Open X-Embodiment dataset.
+
+LAPA:
+  title: Latent Action Pretraining from Videos
+  tags: [NVIDIA, KAIST, policy]
+  arxiv: https://arxiv.org/abs/2410.11758
+  website: https://latentactionpretraining.github.io/
+  github: https://github.com/LatentActionPretraining/LAPA
+  notes: a method to learn from internet-scale videos that do not have robot action labels. 
