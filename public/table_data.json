@@ -55,6 +55,17 @@
       "color": "#000000",
       "fontSize": 24,
       "zIndex": 59
+    },
+    {
+      "id": 1729449802961,
+      "content": "see RL in action:",
+      "x": 191,
+      "y": 245,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#cc640f",
+      "fontSize": 16,
+      "zIndex": 132
     }
   ],
   "cards": [
@@ -114,7 +125,7 @@
       "notes": "Simplifying reinforcement learning for complex game environments. Ships with fast research-grade envs that runs 1M+ step/second on a gaming PC.",
       "x": 52,
       "y": 240,
-      "zIndex": 41
+      "zIndex": 111
     },
     {
       "key": "DQN",
@@ -203,6 +214,15 @@
       "x": 381,
       "y": 524,
       "zIndex": 110
+    },
+    {
+      "key": "PufferOcean",
+      "title": "Fast envs for deep RL",
+      "website": "https://puffer.gg/",
+      "notes": "All run 1M+ agent steps per second per cpu core. They are implemented in pure C and can be compiled as desktop or web apps.",
+      "x": 322,
+      "y": 239,
+      "zIndex": 133
     }
   ],
   "zoom": 1

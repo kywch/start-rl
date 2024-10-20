@@ -93,3 +93,8 @@ NetHack:
   paper: https://arxiv.org/abs/2006.13760
   repo: https://github.com/heiner/nle
   notes: The NetHack Learning Environment combines lightning-fast simulation with very complex game dynamics that are difficult even for humans to master. This allows our agents to experience billions of steps in the environment in a reasonable time frame while still challenging the limits of what current methods can achieve.
+
+PufferOcean:
+  title: Fast envs for deep RL
+  website: https://puffer.gg/
+  notes: All run 1M+ agent steps per second per cpu core. They are implemented in pure C and can be compiled as desktop or web apps.
