@@ -125,7 +125,8 @@
       "notes": "Simplifying reinforcement learning for complex game environments. Ships with fast research-grade envs that runs 1M+ step/second on a gaming PC.",
       "x": 52,
       "y": 240,
-      "zIndex": 111
+      "zIndex": 134,
+      "video": "https://www.youtube.com/watch?v=0-y83bfAMmY"
     },
     {
       "key": "DQN",
