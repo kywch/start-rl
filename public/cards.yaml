@@ -40,6 +40,7 @@ PufferLib:
   website: https://pufferai.github.io/
   paper: https://arxiv.org/abs/2406.12905
   repo: https://github.com/pufferai/pufferlib
+  video: https://www.youtube.com/watch?v=0-y83bfAMmY
   notes: Simplifying reinforcement learning for complex game environments. Ships with fast research-grade envs that runs 1M+ step/second on a gaming PC.
 
 DQN:
