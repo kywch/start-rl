@@ -3,25 +3,25 @@
   "texts": [
     {
       "id": 1729282475828,
-      "content": "Start by watching",
+      "content": "Start with:",
       "x": 35,
       "y": 64,
       "isEditing": false,
       "isSelected": false,
       "color": "#000000",
       "fontSize": 24,
-      "zIndex": 35
+      "zIndex": 152
     },
     {
       "id": 1729282643261,
-      "content": "A gaming pc with gpu would be nice, but if not use:",
+      "content": "A gaming pc with gpu is good, but if not, use:",
       "x": 21,
       "y": 16,
       "isEditing": false,
       "isSelected": false,
       "color": "#000000",
       "fontSize": 16,
-      "zIndex": 26
+      "zIndex": 160
     },
     {
       "id": 1729282994056,
@@ -74,18 +74,18 @@
       "title": "Google Colab Notebooks",
       "website": "https://colab.research.google.com/",
       "notes": "To use GPU, search how to use gpu in google colab.",
-      "x": 405,
-      "y": 13,
-      "zIndex": 27
+      "x": 360,
+      "y": 6,
+      "zIndex": 161
     },
     {
       "key": "RL-Iceberg",
       "title": "The Full Reinforcement Learning Iceberg",
       "video": "https://www.youtube.com/watch?v=RIkse0tJ0hE",
       "notes": "Dive into 10 levels of the RL stack with Joseph Suarez, a newly minted MIT PhD and the creator of Neural MMO + PufferLib. There's something here for beginners and world-class experts alike.",
-      "x": 247,
+      "x": 167,
       "y": 63,
-      "zIndex": 36
+      "zIndex": 157
     },
     {
       "key": "CleanRL",
@@ -224,6 +224,15 @@
       "x": 322,
       "y": 239,
       "zIndex": 133
+    },
+    {
+      "key": "JosephPlaybook",
+      "title": "Joseph Suarez's Reinforcement Learning Quickstart Guide",
+      "paper": "https://x.com/jsuarez5341/status/1854855861295849793",
+      "notes": "Some of the best tricks and insights from Joseph's playbook, along with key research paper recommendations.",
+      "x": 313,
+      "y": 64,
+      "zIndex": 158
     }
   ],
   "zoom": 1
