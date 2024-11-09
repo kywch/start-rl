@@ -99,3 +99,8 @@ PufferOcean:
   title: Fast envs for deep RL
   website: https://puffer.gg/
   notes: All run 1M+ agent steps per second per cpu core. They are implemented in pure C and can be compiled as desktop or web apps.
+
+JosephPlaybook:
+  title: Joseph Suarez's Reinforcement Learning Quickstart Guide
+  paper: https://x.com/jsuarez5341/status/1854855861295849793
+  notes: Some of the best tricks and insights from Joseph's playbook, along with key research paper recommendations.
